@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unix</title>
+    <meta charset="UTF-8" />
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      .centerDiv {
+        margin: 20px auto 40px;
+      }
+      #header {
+        height: 35%;
+        width: 30%;
+        background-color: #e2d7d7;
+        padding: 20px;
+        text-align: center;
+      }
+      #linus {
+        height: 100px;
+        width: 75px;
+      }
+      #header h2 {
+        color: #1c1c8a;
+        font-weight: 800;
+      }
+      #header h3 {
+        font-weight: normal;
+      }
+      #mainContent {
+        height: 18%;
+        width: 640px;
+      }
+      #SalKhanPic {
+        float: left;
+        margin-right: 10px;
+      }
+      #SalKhanPic img {
+        height: 100%;
+        width: 90px;
+      }
+      #SalKhanDetail {
+        float: right;
+        width: 80%;
+      }
+      #SalKhanHeader {
+        color: #da1d0f;
+        margin: 0px;
+        font-weight: 900;
+      }
+      footer {
+        background-color: #e76231;
+        width: 80%;
+        height: 15%;
+      }
+      .footerContent {
+        width: 42%;
+        margin: 10px 3%;
+      }
+      #Ken {
+        float: left;
+      }
+      #Den {
+        float: right;
+        text-align: right;
+      }
+      .footHeader {
+        color: white;
+        font-weight: 200;
+        margin: 0px;
+      }
+      .footContent {
+        font-size: 12px;
+      }
+      #border {
+        height: 80%;
+        width: 0.5%;
+        background-color: black;
+        top: 10%;
+        margin: 0% 1.75%;
+        display: inline-block;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header" class="centerDiv">
+      <img
+        id="linus"
+        src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/linus.jpg"
+        alt="Linus"
+      />
+      <h2>Linus Torvalds</h2>
+      <h3>The creator of Linux and Git</h3>
+    </div>
+    <section id="mainContent" class="centerDiv">
+      <aside id="SalKhanPic">
+        <img
+          src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/khan.jpg"
+          alt="Sal Khan"
+        />
+      </aside>
+      <article id="SalKhanDetail">
+        <h2 id="SalKhanHeader">Sal Khan</h2>
+        <p>
+          Salman Khan is the founder of the Khan Academy which has a mission of
+          providing a free world class-education for anyone,anywhere
+        </p>
+      </article>
+    </section>
+    <footer class="centerDiv">
+      <div id="Ken" class="footerContent">
+        <h3 class="footHeader">Ken Thompson</h3>
+        <p class="footContent">
+          Designed and implemented the original Unix operating system
+        </p>
+      </div>
+      <div id="border"></div>
+      <div id="Den" class="footerContent">
+        <h3 class="footHeader">Dennis Ritchie</h3>
+        <p class="footContent">The creator of C programming language</p>
+      </div>
+    </footer>
+  </body>
+</html>
